@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Montserrat&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: pink;
+    font-family: "Montserrat";
+    color: #1B1D32;
+    text-align: center;
+}
+#welcomeTextDiv p {
+    padding: 5px;
+    font-size: 20px;
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+}
+.welcomeHeaders {
+    padding: 2px;
+    margin: 2px;
+    width: fit-content;
+    font-size: 80px;
+    
+}
+#WelcomeHeader1 {
+    text-align: left;
+    width: fit-content;
+    color: #CE5459;
+}
+#welcomeHR {
+    width: 0%;
+    transition: 0.3s ease-out;
+}
+.hrScale {
+    width: 100% !important;
+}

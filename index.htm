@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>      
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
     <title>Website</title>
-</head>
-<body>
-    <div id="welcomeTextDiv">
-        <h1 id="welcomeText">Riftzy's Portfolio</h1>
-        <p id="welcomeSubText">This page will represent me and my past/future projects</p>
-        <hr>
+  </head>
+  <body>
+    <section class="centered">
+        <div id="welcomeTextDiv">
+            <h1 class="welcomeHeaders" id="WelcomeHeader1" data-aos="fade-right" data-aos-duration="1000">Hi, </h1>
+            <h1 class="welcomeHeaders" id="WelcomeHeader2" data-aos="fade-left" data-aos-duration="1000">I'm Darcy</h1>
+            <p id="welcomeSubText" data-aos="fade-up" data-aos-duration="1000">I am a learner, Australia-based Front-End Dev</p>
+            <hr id="welcomeHR">
+        </div>
+    </section>
+    <div id="aboutMe">
+        <h1 id="aboutMeHeader">About Me</h1>
+        <p id="aboutMeParagraph">I am a 15 year old kid in Australia, I have been (trying) to learn many parts about web-dev but I hope that I will be able to expand this page later on</p>
     </div>
-    <div id="portfolioList">
-        
-    </div>
-</body>
+    <script>AOS.init();</script>
+  </body>
 </html>
